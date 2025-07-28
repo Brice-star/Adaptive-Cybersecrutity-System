@@ -83,7 +83,10 @@ class BlockActionDialog(QDialog):
         self.setLayout(layout)
         self.setFixedWidth(390)
         self.setStyleSheet("""
-
+            QDialog {
+                background-color: #f0f0f0;
+                border: 2px solid #d0d0d0;
+                border-radius: 8px;
             }
             QPushButton {
                 background-color: red;
